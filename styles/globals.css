@@ -21,6 +21,19 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #1d1b20;
   }
+}
+
+nav {
+  padding: 20px;
+}
+
+.logoimg {
+  border-radius: 50%;
+  box-shadow: -4px 4px 2px 1.5px #111111d5;
+}
+
+.footer {
+  
 }
