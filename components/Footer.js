@@ -1,5 +1,9 @@
 const Footer = () => {
-  return ( <div>Copyright © youraveragejay 2022</div> );
-}
- 
+  return (
+    <footer>
+      <p>Copyright © youraveragejay 2022</p>
+    </footer>
+  );
+};
+
 export default Footer;

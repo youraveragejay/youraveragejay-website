@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <div className="logo">
         <Image
           className="logoimg"
@@ -13,13 +13,16 @@ const Navbar = () => {
           width={115}
         />
       </div>
-      <Link href="/" legacyBehavior>
-        <a>Home</a>
+
+      <Link href="#about" legacyBehavior>
+        <a>About</a>
       </Link>
-      <Link href="/the-aurora-project" legacyBehavior>
-        <a>The Aurora Project</a>
+
+      <Link href="#projects" legacyBehavior>
+        <a>Projects</a>
       </Link>
-      <Link href="/contact" legacyBehavior>
+
+      <Link href="#contact" legacyBehavior>
         <a>Contact</a>
       </Link>
     </nav>
