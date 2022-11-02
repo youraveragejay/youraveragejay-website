@@ -14,7 +14,7 @@ const Navbar = () => {
         />
       </div>
 
-      <Link href="#about" legacyBehavior>
+      <Link href="/" legacyBehavior>
         <a>About</a>
       </Link>
 
