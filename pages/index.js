@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import MainLayout from "../layouts/MainLayout";
+import { FaDiscord } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -72,7 +73,10 @@ export default function Home() {
           </p>
           <br />
           <Link href="https://discord.gg/pUmhbV586X" legacyBehavior>
-            <a className="btn" target="_blank">JOIN THE DISCORD</a>
+            <a className="btn" target="_blank">
+              <FaDiscord size={20} />
+              JOIN THE DISCORD
+            </a>
           </Link>
         </div>
       </div>
