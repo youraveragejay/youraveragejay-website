@@ -32,6 +32,7 @@ export default function Home() {
               width={450}
               height={350}
               className="codeimg"
+              priority
             />
           </div>
         </div>
