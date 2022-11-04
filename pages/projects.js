@@ -30,12 +30,6 @@ const Contact = () => {
               <a className="btn">Learn More</a>
             </Link>
           </div>
-          <br />
-          <div className="btndiv">
-            <Link href="/projects" legacyBehavior>
-              <a className="btn">View All</a>
-            </Link>
-          </div>
         </div>
     </MainLayout>
   );
