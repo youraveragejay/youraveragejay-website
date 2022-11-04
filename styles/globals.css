@@ -6,7 +6,7 @@ body {
   margin: 0;
   color: #fff;
   background-color: #1d1b20;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   font-family: "Cairo", sans-serif;
 }
 
@@ -30,10 +30,11 @@ a {
 }
 
 #about {
-  padding: 3.8% 15%;
+  padding: 9.8% 15% 8.8% 15%;
   display: flex;
   align-content: center;
   justify-content: space-between;
+  min-height: 700px;
 }
 
 #about p {
@@ -48,12 +49,14 @@ a {
 #projects {
   text-align: center;
   display: block;
+  align-items: center;
   box-sizing: border-box;
   background-color: #252329;
-  padding: 50px 0;
+  padding: 110px 0 110px 0;
+  min-height: 800px;
 }
 
-#projects h1{
+#projects h1 {
   margin-bottom: 50px;
 }
 
@@ -84,8 +87,10 @@ a {
 #contact {
   text-align: center;
   display: block;
+  position: relative;
   box-sizing: border-box;
-  padding: 50px 0;
+  padding: 135px 0 125px 0;
+  min-height: 700px;
 }
 
 #contact h3 {
@@ -97,16 +102,6 @@ a {
   font-size: 20px;
   width: 500px;
   padding-bottom: 10px;
-}
-
-footer {
-  display: block;
-  text-align: center;
-  align-items: center;
-  padding: 30px 0;
-  margin-top: 60px;
-  color: #dadada;
-  border-top: 1px solid #dddddd6a;
 }
 
 .logo {
@@ -123,7 +118,6 @@ footer {
   text-align: center;
   align-items: center;
   padding: 30px 0;
-  margin-top: 60px;
   color: #dadada;
   border-top: 1px solid #dddddd54;
   background-color: #3d3a42;
@@ -131,8 +125,7 @@ footer {
 
 .navbar {
   width: 100%;
-  margin: 10px auto 80px;
-  margin-top: 0;
+  margin: 0 auto;
   padding: 10px 20px;
   display: flex;
   justify-content: flex-end;
@@ -179,6 +172,21 @@ footer {
 
 .errorpage p {
   padding: 0 35px;
+}
+
+.aurora-about {
+  text-align: center;
+  display: block;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 165px 0 110px 0;
+  min-height: 710px;
+}
+
+.aurora-about p {
+  font-size: 20px;
+  width: 400px;
+  display: inline-block
 }
 
 /* SCROLLBAR */

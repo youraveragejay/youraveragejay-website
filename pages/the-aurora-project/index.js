@@ -1,10 +1,28 @@
 import AuroraLayout from "../../layouts/AuroraLayout";
+import Image from "next/image";
+import Link from "next/link";
 
 const TheAuroraProject = () => {
   return (
     <AuroraLayout>
-      <div>
-        <p>Random info ab the aurora project</p>
+      <div className="aurora-about">
+        <Image
+          src="/auroralogo.png"
+          alt="auroralogoimg"
+          className="logo"
+          width={100}
+          height={100}
+        />
+        <h1>The Aurora Project</h1>
+        <p>
+          Is a general purpose Discord bot, used for memes, moderation and all
+          round fun for the server.
+        </p>
+        <div className="btndiv">
+          <Link href="/the-aurora-project/commands" legacyBehavior>
+            <a className="btn">View Commands</a>
+          </Link>
+        </div>
       </div>
     </AuroraLayout>
   );

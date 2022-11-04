@@ -14,8 +14,8 @@ const Navbar = () => {
           <a>
             <Image
               className="logoimg"
-              alt="logoimg"
-              src="/logo.png"
+              alt="auroralogoimg"
+              src="/auroralogo.png"
               width={75}
               height={75}
             />
@@ -25,12 +25,12 @@ const Navbar = () => {
       </div>
 
       <FaHome size={15} />
-      <Link href="/" legacyBehavior>
+      <Link href="/the-aurora-project" legacyBehavior>
         <a>Home</a>
       </Link>
 
       <RiCodeSSlashLine size={15} />
-      <Link href="/commands" legacyBehavior>
+      <Link href="/the-aurora-project/commands" legacyBehavior>
         <a>Commands</a>
       </Link>
 
