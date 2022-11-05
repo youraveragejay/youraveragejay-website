@@ -46,7 +46,7 @@ const Navbar = () => {
 
       <RiAddCircleFill size={15} />
       <Link
-        href="https://discord.com/api/oauth2/authorize?client_id=977647458677035008&permissions=8&scope=bot"
+        href="/the-aurora-project/invite"
         legacyBehavior
       >
         <a target="_blank">Add to server</a>
