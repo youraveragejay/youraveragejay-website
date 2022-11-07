@@ -186,7 +186,44 @@ footer {
 .aurora-about p {
   font-size: 20px;
   width: 400px;
-  display: inline-block
+  display: inline-block;
+}
+
+.commands {
+  padding: 20px 50px;
+  margin: 0 auto;
+  width: 25%;
+  align-items: center;
+  text-align: center;
+  min-height: 710px;
+}
+
+#searchBar {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid #6e6e6e86;
+  margin-bottom: 12px;
+}
+
+.commands ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.commands li {
+  background-color: #3c456d2d;
+  border-radius: 10px;
+}
+
+.commands h1 {
+  font-size: 20px;
+}
+
+.commands p {
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 
 /* SCROLLBAR */
