@@ -1,10 +1,14 @@
 import AuroraLayout from "../../layouts/AuroraLayout";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 const TheAuroraProject = () => {
   return (
     <AuroraLayout>
+      <Head>
+        <title>Aurora | Home</title>
+      </Head>
       <div className="aurora-about">
         <Image
           src="/auroralogo.png"

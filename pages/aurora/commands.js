@@ -1,4 +1,5 @@
 import AuroraLayout from "../../layouts/AuroraLayout";
+import Head from "next/head";
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -27,6 +28,7 @@ function myFunction() {
 const Commands = ({ commands }) => {
   return (
     <AuroraLayout>
+    <Head><title>Aurora | Commands</title></Head>
       <div className="commands">
         <input
           type="text"
