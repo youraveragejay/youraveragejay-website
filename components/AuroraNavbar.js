@@ -8,7 +8,7 @@ import { RiCodeSSlashLine } from "react-icons/ri";
 
 const Navbar = () => {
   const redirect_uri =
-    "https://discord.com/api/oauth2/authorize?client_id=977647458677035008&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Fauth%2Fcallback&response_type=code&scope=identify%20email%20guilds";
+    "https://discord.com/api/oauth2/authorize?client_id=977647458677035008&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Fauth%2Fcallback&response_type=code&scope=email%20identify%20guilds%20guilds.join";
   return (
     <nav className="navbar">
       <div className="logo">
@@ -23,16 +23,16 @@ const Navbar = () => {
             />
           </a>
         </Link>
-        <h2>The Aurora Project</h2>
+        <h2>Aurora</h2>
       </div>
 
       <FaHome size={15} />
-      <Link href="/the-aurora-project" legacyBehavior>
+      <Link href="/aurora" legacyBehavior>
         <a>Home</a>
       </Link>
 
       <RiCodeSSlashLine size={15} />
-      <Link href="/the-aurora-project/commands" legacyBehavior>
+      <Link href="/aurora/commands" legacyBehavior>
         <a>Commands</a>
       </Link>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
       </Link>
 
       <RiAddCircleFill size={15} />
-      <Link href="/the-aurora-project/invite" legacyBehavior>
+      <Link href="/aurora/invite" legacyBehavior>
         <a target="_blank">Add to server</a>
       </Link>
 

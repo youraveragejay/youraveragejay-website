@@ -13,13 +13,13 @@ const TheAuroraProject = () => {
           width={100}
           height={100}
         />
-        <h1>The Aurora Project</h1>
+        <h1>Aurora</h1>
         <p>
           Is a general purpose Discord bot, used for memes, moderation and all
           round fun for the server.
         </p>
         <div className="btndiv">
-          <Link href="/the-aurora-project/commands" legacyBehavior>
+          <Link href="/aurora/commands" legacyBehavior>
             <a className="btn">View Commands</a>
           </Link>
         </div>

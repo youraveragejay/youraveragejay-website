@@ -45,7 +45,7 @@ export default function Home() {
             width={100}
             height={100}
           />
-          <h2>The Aurora Project</h2>
+          <h2>Aurora</h2>
           <p>
             Enrich your Discord community with this all purpose general Discord
             bot. Aurora can be used for Reddit searches, moderation, music and
@@ -53,7 +53,7 @@ export default function Home() {
           </p>
           <br />
           <div className="btndiv">
-            <Link href="/the-aurora-project" legacyBehavior>
+            <Link href="/aurora" legacyBehavior>
               <a className="btn">Learn More</a>
             </Link>
           </div>

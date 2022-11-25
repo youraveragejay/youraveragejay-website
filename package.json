@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "mongoose": "^6.7.2",
     "next": "13.0.0",

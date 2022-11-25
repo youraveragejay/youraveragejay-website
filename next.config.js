@@ -4,7 +4,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/the-aurora-project/invite",
+        source: "/aurora/invite",
         destination:
           "https://discord.com/api/oauth2/authorize?client_id=977647458677035008&permissions=8&scope=bot",
         permanent: true,
