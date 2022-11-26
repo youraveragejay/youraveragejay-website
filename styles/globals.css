@@ -114,10 +114,11 @@ a {
 }
 
 footer {
-  display: block;
+  display: flex;
   text-align: center;
   align-items: center;
-  padding: 30px 0;
+  justify-content: space-between;
+  padding: 30px 700px;
   color: #dadada;
   border-top: 1px solid #dddddd54;
   background-color: #3d3a42;
@@ -187,6 +188,31 @@ footer {
   font-size: 20px;
   width: 400px;
   display: inline-block;
+}
+
+.aurora-privacy {
+  text-align: center;
+  display: block;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 165px 0 110px 0;
+  min-height: 710px;
+}
+
+.aurora-privacy p {
+  font-size: 20px;
+  width: 400px;
+  display: inline-block;
+}
+
+.aurora-privacy ul {
+  text-align: center;
+  list-style-position: inside;
+  font-weight: 600;
+}
+
+.aurora-privacy a {
+  text-decoration: underline;
 }
 
 .commands {

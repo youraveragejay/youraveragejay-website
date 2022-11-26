@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-const TheAuroraProject = () => {
+const Aurora = () => {
   return (
     <AuroraLayout>
       <Head>
@@ -32,4 +32,4 @@ const TheAuroraProject = () => {
   );
 };
 
-export default TheAuroraProject;
+export default Aurora;
